@@ -1,0 +1,13 @@
+.idea
+.project
+.svn
+*.iml
+target
+.settings
+.classpath
+*/source
+*/target
+.DS_Store
+**/.cache-*
+jdbc.properties
+config.properties
