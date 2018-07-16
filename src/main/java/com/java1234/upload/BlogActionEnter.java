@@ -45,14 +45,14 @@ public class BlogActionEnter extends ActionEnter {
                     case 4:
                         conf = this.configManager.getConfig(actionCode);
                         //注意再这里修改rootPath和savePath，上传的实际路径为rootPath＋savePath
-                        conf.put("rootPath", "/mydata/ftp/blog/");
+                        conf.put("rootPath", "/mydata/ftp/blog");
                         conf.put("savePath", conf.get("savePath"));
                         state = (new BlogUploader(this.request, conf)).doExec();
                         break;
                     case 5:
                         conf = this.configManager.getConfig(actionCode);
                         //注意再这里修改rootPath和savePath，上传的实际路径为rootPath＋savePath
-                        conf.put("rootPath", "/mydata/ftp/blog/");
+                        conf.put("rootPath", "/mydata/ftp/blog");
                         conf.put("savePath", conf.get("savePath"));
                         String[] list = this.request.getParameterValues((String) conf.get("fieldName"));
                         state = (new ImageHunter(conf)).capture(list);
@@ -61,7 +61,7 @@ public class BlogActionEnter extends ActionEnter {
                     case 7:
                         conf = this.configManager.getConfig(actionCode);
                         //注意再这里修改rootPath和savePath，上传的实际路径为rootPath＋savePath
-                        conf.put("rootPath", "/mydata/ftp/blog/");
+                        conf.put("rootPath", "/mydata/ftp/blog");
                         conf.put("savePath", conf.get("savePath"));
                         conf.put("dir", "/upload" + conf.get("dir"));
                         int start = this.getStartIndex();
