@@ -57,7 +57,7 @@ public class BloggerController {
 		ModelAndView mav=new ModelAndView();
 		mav.addObject("blogger",bloggerService.find());
 		mav.addObject("mainPage", "foreground/blogger/info.jsp");
-		mav.addObject("pageTitle","关于博主__BLOG.NIHAOV.COM");
+		mav.addObject("pageTitle","关于博主-Powered by appcnd");
 		mav.setViewName("mainTemp");
 		return mav;
 	}
