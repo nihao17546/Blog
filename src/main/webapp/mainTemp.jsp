@@ -8,8 +8,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>${pageTitle}</title>
-    <meta name="keywords" content="博客,blog,nihaov,Java,知识分享,IT">
-    <meta name="description" content="倪浩的个人博客网站">
+    <meta name="keywords" content="博客,CND,APPCND,Java,知识分享,IT">
+    <meta name="description" content="APPCND技术博客网站">
     <meta name="referrer" content="never">
 
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/bootstrap3/css/bootstrap.min.css">
