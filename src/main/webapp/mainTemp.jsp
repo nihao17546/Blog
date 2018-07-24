@@ -20,13 +20,6 @@
     <script src="${pageContext.request.contextPath}/static/bootstrap3/js/bootstrap.min.js"></script>
 
     <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?aa5c701f4f646931bf78b6f40b234ef5";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
     </script>
 
     <style type="text/css">
@@ -36,7 +29,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: antiquewhite;">
 <div class="container">
     <jsp:include page="/foreground/common/head.jsp"/>
 
@@ -63,7 +56,7 @@
             <div class="data_list">
                 <div class="data_list_title">
                     <img src="${pageContext.request.contextPath}/static/images/byType_icon.png"/>
-                    按日志类别
+                    按类别
                 </div>
                 <div class="datas">
                     <ul>
@@ -79,7 +72,7 @@
             <div class="data_list">
                 <div class="data_list_title">
                     <img src="${pageContext.request.contextPath}/static/images/byDate_icon.png"/>
-                    按日志日期
+                    按日期
                 </div>
                 <div class="datas">
                     <ul>

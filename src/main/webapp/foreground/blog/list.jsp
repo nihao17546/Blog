@@ -4,7 +4,7 @@
 
 <div class="data_list">
 		<div class="data_list_title">
-		<img src="${pageContext.request.contextPath}/static/images/list_icon.png"/>
+		<img src="${pageContext.request.contextPath}/static/images/list_16px_1137891_easyicon.net.png"/>
 		${typeName}</div>
 		<div class="datas">
 			<ul>
