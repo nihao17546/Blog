@@ -24,7 +24,7 @@ import java.util.Map;
  */
 public class BlogBinaryUploader {
     public static final String lookBucket = "activity";
-    public static final String qiNiuUrlPrefix = "http://ox2n31sqv.bkt.clouddn.com/";
+    public static final String qiNiuUrlPrefix = "http://activity.appcnd.com/";
     private static File tempFile = null;
     static {
         tempFile = new File("/temp");
